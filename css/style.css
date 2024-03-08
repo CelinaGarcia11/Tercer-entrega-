@@ -3,4 +3,59 @@ header {
   color: white;
 }
 
+.logoheader {
+  text-align: center;
+}
+
+section {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.historia {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 150px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.listabarras {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.multimedia {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.cartas {
+  text-align: center;
+  padding-top: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */
