@@ -7,6 +7,13 @@ header {
   text-align: center;
 }
 
+.menuu {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
 section {
   background-color: black;
   color: white;
@@ -22,6 +29,50 @@ h1 {
 * {
   margin: 0;
   padding: 0;
+}
+
+h2 {
+  font-size: 80px;
+  padding-bottom: 60px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: rgb(29, 28, 28);
+    color: aliceblue;
+  }
+}
+/*Desktop*/
+@media only screen and (min-width: 981px) {
+  body {
+    background-color: rgb(14, 12, 12);
+    color: rgb(226, 233, 240);
+  }
+}
+a {
+  color: white;
+}
+
+a :visited {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+a :hover {
+  background-color: aliceblue;
+}
+
+p::first-letter {
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
 }
 
 .historia {
@@ -56,6 +107,60 @@ footer {
 .cartas {
   text-align: center;
   padding-top: 100px;
+}
+
+.listatrabajos {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.videotrabajos {
+  display: flex;
+  justify-content: center;
+}
+
+.contactos {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.listacoc {
+  padding-top: 100px;
+}
+
+.listabar {
+  padding-top: 100px;
+}
+
+.herra {
+  padding-bottom: 100px;
+}
+
+.what {
+  padding-top: 150px;
+}
+
+.correo {
+  padding-top: 150px;
+}
+
+.mail {
+  padding-bottom: 100px;
+}
+
+.imagenes {
+  text-align: center;
+}
+
+.estandar {
+  padding-bottom: 100px;
+}
+
+.minibar {
+  padding-bottom: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
