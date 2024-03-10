@@ -84,6 +84,29 @@ li {
     font-size: 30px;
     text-align: center;
   }
+  .historia {
+    text-align: center;
+  }
+  .imagenes {
+    text-align: center;
+  }
+  .multimedia {
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  li {
+    text-align: center;
+  }
+  .listatrabajos {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
 }
 .historia {
   font-size: 25px;
