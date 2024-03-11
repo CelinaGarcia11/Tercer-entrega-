@@ -128,6 +128,7 @@ li {
   }
   h2 {
     text-align: center;
+    font-size: 60px;
   }
   li {
     text-align: center;
@@ -232,7 +233,8 @@ footer {
 }
 
 .herra {
-  padding-bottom: 100px;
+  padding-bottom: 0px;
+  margin-bottom: 0%;
 }
 
 .what {
