@@ -70,6 +70,47 @@ li {
 
 @media only screen and (max-width: 480px) {
 
+
+    .logoheader {
+        text-align: center;
+       }
+    
+       h1 {
+        font-size: 30px;
+        text-align: center;
+       }
+    
+       .historia {
+        text-align: center; 
+        }
+    
+       .imagenes {
+        text-align: center;
+       }
+    
+       .multimedia {
+        text-align: center;
+       }
+    
+       footer {
+        text-align: center;
+       }
+    
+       h2 {
+        text-align: center;
+       }
+    
+       li {
+        text-align: center;
+       }
+    
+       .listatrabajos {
+        text-align: center;
+        display: flex; 
+        justify-content: space-around;
+       }
+
+
    .logoheader {
     text-align: center;
    }
@@ -80,7 +121,7 @@ li {
    }
 
    .historia {
-    text-align: center;
+    text-align: center;}
 
    .imagenes {
     text-align: center;
@@ -108,6 +149,8 @@ li {
     justify-content: space-around;
    }
 }
+
+
 
 /*tablet*/
 @media only screen and (min-width:481px) and (max-width:980px) {
@@ -149,4 +192,5 @@ li {
         display: flex; 
         justify-content: space-around;
        }
-}
+
+    } 
