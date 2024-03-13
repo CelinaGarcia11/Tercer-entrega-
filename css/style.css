@@ -138,9 +138,8 @@ body {
     text-align: center;
   }
   .listatrabajos {
-    text-align: center;
-    display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   body {
     background-color: black;
@@ -180,6 +179,42 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-around;
+  }
+  .logoheader {
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .historia {
+    text-align: center;
+  }
+  .imagenes {
+    text-align: center;
+  }
+  .multimedia {
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    font-size: 60px;
+  }
+  li {
+    text-align: center;
+  }
+  .listatrabajos {
+    flex-direction: column;
+    justify-content: center;
+  }
+  body {
+    background-color: black;
+  }
+  .contactos {
+    text-align: center;
   }
 }
 .historia {
