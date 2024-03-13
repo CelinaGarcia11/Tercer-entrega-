@@ -126,7 +126,6 @@ body {
   }
   .multimedia {
     text-align: center;
-    width: 100%;
   }
   footer {
     text-align: center;
@@ -141,7 +140,7 @@ body {
   .listatrabajos {
     text-align: center;
     display: flex;
-    justify-content: baseline;
+    flex-direction: column;
   }
   body {
     background-color: black;
