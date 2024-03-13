@@ -133,6 +133,7 @@ body {
 
    .multimedia {
     text-align: center;
+    width: 100%;
    }
 
    footer {
@@ -150,8 +151,9 @@ body {
 
    .listatrabajos {
     text-align: center;
-    display: flex; 
-    justify-content: space-around;
+    display: flex;
+    justify-content: baseline;
+   
    }
 
    body {
